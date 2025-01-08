@@ -87,5 +87,15 @@
 
 # Quest 11
 
+produtos = []
+while True:
+    entrada = input("Produto:")
+    if entrada == 'sair':
+        break
+    produtos.append ({"nome": entrada})
+    
 
+
+print(produtos)
+    
 
