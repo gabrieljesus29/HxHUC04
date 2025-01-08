@@ -50,10 +50,42 @@
 # Entrada: O valor total da compra antes do desconto.
 # Saída: O valor final da compra, formatado com duas casas decimais.
  
-valorCompra = float(input('Digite o valor total da compra: '))
-if(valorCompra>100):
-    #novoValor = valorCompra - valorCompra*0.1
-    valorCompra*=0.9
-    print(f'Novo Valor com desconto = {valorCompra}')
-else:
-    print(f'O desconto não pode ser aplicado. Total = {valorCompra}') 
+# Quest 06
+# valorCompra = float(input('Digite o valor total da compra: '))
+# if(valorCompra>100):
+#     #novoValor = valorCompra - valorCompra*0.1
+#     valorCompra*=0.9
+#     print(f'Novo Valor com desconto = {valorCompra}')
+# else:
+#     print(f'O desconto não pode ser aplicado. Total = {valorCompra}') 
+
+# Quest 07
+
+# for numero in range(1, 101):
+#     print(numero)
+
+# Quest 08
+
+# for numero in range(200, 0, -1):
+#     print(numero)
+
+# Quest 09
+
+# idades_soma = 0
+# while True:
+#     idade = int(input("Sua Idade (pra para digite 0):  "))
+#     if idade == 0:
+#         break
+#     idades_soma+=idade
+# print(idades_soma)
+
+# Quest 10
+
+# frase = (input("Digite sua frase: "))
+# palavras = frase.split()
+# print(f'A frase tem {len(palavras)} palavras.')
+
+# Quest 11
+
+
+
