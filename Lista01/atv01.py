@@ -87,15 +87,131 @@
 
 # Quest 11
 
-produtos = []
-while True:
-    entrada = input("Produto:")
-    if entrada == 'sair':
-        break
-    produtos.append ({"nome": entrada})
+#produtos = []
+#while True:
+#    entrada = input("Produto: ")
+#    valor = input("Preço: ")
+#    quantidade = input("Unidades: ")
+#    if entrada == 'sair':
+#        break
+#    produtos.append ({"Produto": entrada, "Preço" : valor, "Unidades": quantidade})
+   
+#print(produtos)
+
+#Quest 12
+
+# def validar_cpf(cpf):
+#     if len(cpf) == 11 and cpf.isdigit():
+#         return "CPF válido"
+#     else:
+#         return "CPF inválido"
+
+# cpf_usuario = input("Digite o CPF: ")
+
+# print(validar_cpf(cpf_usuario))
+
+#Quest 13
+
+# soma_pares = 0
+# while True:
+#     numero = int(input("Digite um número (0 para parar): ")) 
+#     if numero == 0:
+#         break
+#     if numero % 2 == 0:
+#         soma_pares += numero
+
+# print("Soma dos números pares:", soma_pares)
+
+#Quest 14
+
+# import random
+# nomes = []
+# while True:
+#     nome = input("Digite um nome (ou 'sair' para finalizar): ")
+#     if nome.lower() == "sair":
+#         break
+#     nomes.append(nome)
+
+# if nomes:
+#     nome_sorteado = random.choice(nomes)
+#     print("O nome sorteado foi:", nome_sorteado)
+# else:
+#     print("Nenhum nome foi inserido.")
+
+# Quest 15
+
+# def validar_senha(senha):
+#     if len(senha) < 8:
+#         return "Senha inválida"
+#     if not any(char.isdigit() for char in senha):
+#         return "Senha inválida"
     
+#     return "Senha válida"
 
+# senha = input("Digite a senha: ")
+# print(validar_senha(senha))
 
-print(produtos)
+# Quest 16
+
+# def calcular_media_turma():
+#     notas = []
+#     while True:
+#         entrada = input("nota do aluno (ou 'sair' para terminar): ")
+        
+#         if entrada.lower() == "sair":
+#             break
+        
+#         try:
+#             nota = float(entrada)
+#             if 0 <= nota <= 10:
+#                 notas.append(nota)
+#             else:
+#                 print("A nota é entre 0 e 10. Tente novamente.")
+#         except ValueError:
+#             print("Entrada inválida. Digite um número ou 'sair'.")
     
+#     if notas:
+#         media = sum(notas) / len(notas)
+#         print(f"A média da turma é: {media:.2f}")
+#     else:
+#         print("Nenhuma nota foi registrada.")
 
+# calcular_media_turma()
+
+# Quest 17
+
+# palavra = input("Digite uma palavra: ").lower() 
+# vogais = "aeiou"
+# contador = 0
+
+# for letra in palavra:
+#     if letra in vogais:
+#         contador += 1
+
+# print(f"O número total de vogais é: {contador}")
+
+# Quest 18
+
+# numero = int(input("Digite um número: "))
+# soma_divisores = 0
+
+# for i in range(1, numero):
+#     if numero % i == 0: 
+#         soma_divisores += i
+
+# if soma_divisores == numero:
+#     print("Número Perfeito")
+# else:
+#     print("Não é Perfeito")
+
+# Quest 19
+
+# numeros = list(map(int, input("Digite os números separados por espaço: ").split()))
+# produto = 1
+
+# for numero in numeros:
+#     produto *= numero
+
+# print(f"O produto dos números é: {produto}")
+
+# Quest 20
