@@ -7,7 +7,7 @@ class Produto:
     def __init__(self, id, nome, preco):
         self.__id = id # atributo privado
         self.__nome = nome # atributo privado
-        self.__preco = preco =# atributo privado
+        self.__preco = preco  # atributo privado
 
     # Getter e Setter para o ID
     @property

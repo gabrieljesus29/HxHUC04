@@ -25,3 +25,4 @@ while True:
         print("Encerrado")
         break
     else:
+        print("Opção Invalida:")
