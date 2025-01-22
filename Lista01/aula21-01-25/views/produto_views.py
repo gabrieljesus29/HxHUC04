@@ -6,12 +6,12 @@ class ProdutoView:
     @staticmethod
     def listar_produtos(produtos):
         if produtos:
-            print("Lista dde Produtos")
+            print("Lista de Produtos:")
             for produto in produtos:
                 print(produto)
         else:
             print("Nenhum produto encontrado.")
-
+    
     @staticmethod
     def mensagem(msg):
         print(msg)
