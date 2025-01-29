@@ -8,6 +8,7 @@ def menu():
     print("4. Deletar Produto")
     print("5. Buscar Produto por nome")
     print("6. Buscar por faixa de preço")
+    print("7. Ordenar produtos")
     print("0. Sair")
     return input("Escolha uma opção:")
 
@@ -43,6 +44,11 @@ while True:
         inicio = float(input("Digite o valor Inicial"))
         fim = float(input("Digite o valor final"))
         controller.buscar_produto_preco(inicio, fim)
+
+    elif opcao == "7":
+            print("Escolha um critério de ordenação: 'id', 'nome', 'preco' ou 'todos'")
+            criterio = input("Ceitério: ").lower()
+            controller.ordenar_produtos(criterio)
 
     elif opcao == "0":
         print("Encerrando")
